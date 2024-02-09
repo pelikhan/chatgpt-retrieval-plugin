@@ -37,6 +37,8 @@ psycopg2cffi = {version = "^2.9.0", optional = true}
 loguru = "^0.7.0"
 elasticsearch = "8.8.2"
 pymongo = "^4.3.3"
+langchain = "0.0.153"
+poetry-plugin-dotenv = "0.6.11"
 
 [tool.poetry.scripts]
 start = "server.main:start"
